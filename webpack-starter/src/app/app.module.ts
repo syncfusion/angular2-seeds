@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
 
-import {EJ_ACCORDION_COMPONENTS} from './ej/accordion.component';
+import {EJ_GRID_COMPONENTS} from './ej/grid.component';
 
 import { AppComponent } from './app.component';
 @NgModule({
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
     BrowserModule
   ],
   declarations: [
-    AppComponent, EJ_ACCORDION_COMPONENTS
+    AppComponent, EJ_GRID_COMPONENTS
   ],
   bootstrap: [ AppComponent ]
 })
