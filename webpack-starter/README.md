@@ -15,7 +15,7 @@ A simple starter project to getting started with Angular 2 Syncfusion JavaScript
 - run `npm install` to install dependencies.
 - run `npm start` to fire up dev server.
 - open browser to [`http://localhost:3000`](http://localhost:3000)
-- if you want to use other port, open `package.json` file, then change port in `--port 3000` script.
+- if you want to use other port, open `package.json` file, then change port in `--port 3000` script and also change the port in `config/webpack.dev.js`.
 
 ### Documentation
 
