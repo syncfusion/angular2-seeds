@@ -18,7 +18,7 @@ A simple starter project to getting started with Angular 2 Syncfusion JavaScript
 
 ### Documentation
 
-For complete documentation for getting started with Angular 2 Syncfusion Components, please visit [https://help.syncfusion.com/js/angular2](https://help.syncfusion.com/js/angular2)
+For complete documentation for getting started with Angular 2 Syncfusion Components, please visit [https://help.syncfusion.com/angular-2/](https://help.syncfusion.com/angular-2/)
 
 ### Demos
 
