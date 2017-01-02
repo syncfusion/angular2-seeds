@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { EJ_GRID_COMPONENTS } from './ej/grid.component';
+import { EJAngular2Module } from 'ej-angular2';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -24,8 +24,8 @@ class CustomErrorHandler implements ErrorHandler {
 }
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, HttpModule, RouterModule.forRoot(rootRouterConfig, { useHash: true })],
-  declarations: [AppComponent, EJ_GRID_COMPONENTS, HomeComponent, GridComponent],
+  imports: [BrowserModule, FormsModule, HttpModule, EJAngular2Module.forRoot(), RouterModule.forRoot(rootRouterConfig, { useHash: true })],
+  declarations: [AppComponent, HomeComponent, GridComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
