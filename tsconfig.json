@@ -8,6 +8,15 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "node_modules/@types/"
+    ],
+    "types": [
+      "jquery",
+      "ej.web.all",
+      "node",
+      "es6-shim"
+    ]
   }
 }

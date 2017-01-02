@@ -58,14 +58,18 @@
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
     "style-loader": "^0.13.1",
-    "typescript": "^2.0.2",
-    "typings": "^0.7.5",
+    "typescript": "^2.1.4",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.14.0",
     "bootstrap": "^3.3.6",
     "jquery": "^3.1.1",
     "jsrender": "^0.9.75",
-    "syncfusion-javascript": "^14.3.49"
+    "syncfusion-javascript": "^14.3.49",
+    "ej-angular2": "14.4.20-beta-0.0.1",
+    "@types/ej.web.all": "0.0.2",
+    "@types/jquery": "2.0.34",
+    "@types/es6-shim": "0.31.32",
+    "@types/node": "6.0.52"
   }
 }
