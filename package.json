@@ -9,10 +9,8 @@
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
-    "postinstall": "typings install",
     "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "tsc:w": "tsc -w"
   },
   "keywords": [
     "syncfusion",
@@ -47,12 +45,16 @@
     "bootstrap": "^3.3.6",
     "jquery": "^3.1.1",
     "jsrender": "^0.9.75",
-    "syncfusion-javascript": "^14.3.49"
+    "syncfusion-javascript": "^14.3.49",
+    "ej-angular2": "^14.4.20",
+    "@types/ej.web.all": "0.0.2",
+    "@types/jquery": "2.0.34",
+    "@types/es6-shim": "0.31.32",
+    "@types/node": "6.0.52"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
     "lite-server": "^2.1.0",
-    "typescript": "^1.8.7",
-    "typings": "^0.7.5"
+    "typescript": "^2.1.4"
   }
 }
