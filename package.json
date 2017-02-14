@@ -9,8 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 3000",
     "test": "karma start",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "postinstall": "typings install"
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "keywords": [
     "syncfusion",
@@ -27,17 +26,17 @@
   },
   "homepage": "https://github.com/syncfusion/angular2-seeds#readme",
   "dependencies": {
-    "@angular/common": "2.0.0",
-    "@angular/compiler": "2.0.0",
-    "@angular/core": "2.0.0",
-    "@angular/forms": "2.0.0",
-    "@angular/http": "2.0.0",
-    "@angular/platform-browser": "2.0.0",
-    "@angular/platform-browser-dynamic": "2.0.0",
-    "@angular/router": "3.0.0",
+    "@angular/common": "~2.4.0",
+    "@angular/compiler": "~2.4.0",
+    "@angular/core": "~2.4.0",
+    "@angular/forms": "~2.4.0",
+    "@angular/http": "~2.4.0",
+    "@angular/platform-browser": "~2.4.0",
+    "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/router": "~3.4.0",
     "core-js": "^2.4.1",
-    "rxjs": "5.0.0-beta.12",
-    "zone.js": "^0.6.23"
+    "rxjs": "5.0.1",
+    "zone.js": "^0.7.4"
   },
   "devDependencies": {
     "angular2-template-loader": "^0.4.0",
@@ -65,11 +64,11 @@
     "bootstrap": "^3.3.6",
     "jquery": "^3.1.1",
     "jsrender": "^0.9.75",
-    "syncfusion-javascript": "^14.3.49",
-    "ej-angular2": "^14.4.20",
-    "@types/ej.web.all": "0.0.2",
+    "syncfusion-javascript": "^15.1.33",
+    "ej-angular2": "^15.1.33",
+    "@types/ej.web.all": "^14.4.1",
     "@types/jquery": "2.0.34",
     "@types/es6-shim": "0.31.32",
-    "@types/node": "6.0.52"
+    "@types/node": "^6.0.46"
   }
 }
