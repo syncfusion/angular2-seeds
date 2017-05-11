@@ -24,7 +24,11 @@
       // other libraries
       'rxjs': 'npm:rxjs',
       'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
-      'ej-angular2':'npm:ej-angular2'
+      'jquery': 'npm:jquery/dist/jquery.min.js',
+      'jsrender': 'npm:jsrender/jsrender.min.js',
+      'jquery-validation': 'npm:jquery-validation/dist/jquery.validate.min.js',
+      'syncfusion-javascript': 'npm:syncfusion-javascript',
+      'ej-angular2': 'npm:ej-angular2'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -41,6 +45,9 @@
       },
       'ej-angular2': {
         main: './src/index.js'
+      },
+      'syncfusion-javascript': {
+        defaultExtension: 'js'
       }
     }
   });
