@@ -9,14 +9,17 @@
     "removeComments": false,
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
     "typeRoots": [
       "./../node_modules/@types/"
     ],
     "types": [
       "jquery",
       "ej.web.all",
-      "node",
-      "es6-shim"
+      "node"
     ]
   }
 }
