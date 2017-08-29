@@ -70,7 +70,7 @@
     "syncfusion-javascript": "^15.2.41",
     "ej-angular2": "^15.2.41",
     "@types/ej.web.all": "15.2.4",
-    "@types/jquery": "^3.2.11",
+    "@types/jquery": "3.2.7",
     "@types/node": "^6.0.46"
   }
 }
