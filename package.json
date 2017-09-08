@@ -69,7 +69,7 @@
     "jsrender": "~0.9.84",
     "syncfusion-javascript": "^15.3.29",
     "ej-angular2": "^15.3.29",
-    "@types/ej.web.all": "15.2.4",
+    "@types/ej.web.all": "^15.3.3",
     "@types/jquery": "^3.2.12",
     "@types/node": "^6.0.46"
   }
