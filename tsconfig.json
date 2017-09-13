@@ -8,14 +8,14 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false,
+    "lib": ["es2015", "dom"],
     "typeRoots": [
       "node_modules/@types/"
     ],
     "types": [
       "jquery",
       "ej.web.all",
-      "node",
-      "es6-shim"
+      "node"
     ]
   },
   "exclude": [
