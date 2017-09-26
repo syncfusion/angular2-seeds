@@ -14,3 +14,4 @@ window["jQuery"] = $;
 window["$"] = $;
 import 'jsrender';
 import '../node_modules/syncfusion-javascript/Content/ej/web/material/ej.web.all.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
