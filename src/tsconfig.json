@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "es2015",
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
@@ -9,6 +9,8 @@
     "removeComments": false,
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./build",
+    "skipLibCheck": true,
     "lib": [
       "es2015",
       "dom"
@@ -21,5 +23,22 @@
       "ej.web.all",
       "node"
     ]
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/main*.ts",
+    "src/polyfills.ts",
+    "src/vendor.ts"
+  ],
+   "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  },
+  "angularCompilerOptions": {
+    "genDir": ".",
+    "entryModule": "src/app/app.module#AppModule"
   }
 }

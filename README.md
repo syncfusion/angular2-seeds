@@ -20,7 +20,7 @@ A simple starter project to getting started with Angular Syncfusion JavaScript c
 ### Documentation
 
 For complete documentation for getting started with Angular Syncfusion Components, please visit 
-[https://help.syncfusion.com/angular-2/](https://help.syncfusion.com/angular-2/)
+[https://help.syncfusion.com/angular/](https://help.syncfusion.com/angular/)
 
 ### Demos
 

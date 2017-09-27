@@ -7,9 +7,10 @@
   },
   "description": "A webpack starter for Angular",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 3000",
-    "test": "karma start",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+    "build:aot": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "ngc": "ngc -p src/tsconfig.json",
+    "start": "npm run ngc && webpack-dev-server --inline --progress --port 3000",
+    "test": "karma start"
   },
   "keywords": [
     "syncfusion",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@angular/common": "~4.3.6",
     "@angular/compiler": "~4.3.6",
+    "@angular/compiler-cli": "^4.4.3",
     "@angular/core": "~4.3.6",
     "@angular/forms": "~4.3.6",
     "@angular/http": "~4.3.6",
