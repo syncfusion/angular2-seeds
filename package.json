@@ -47,15 +47,15 @@
     "jquery": "^3.1.1",
     "jsrender": "^0.9.75",
     "syncfusion-javascript": "^15.3.29",
-    "ej-angular2": "^15.3.29",
-    "@types/ej.web.all": "^15.3.3",
-    "@types/jquery": "^3.2.12",
-    "@types/es6-shim": "0.31.32",
-    "@types/node": "6.0.52"
+    "ej-angular2": "^15.3.29"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
     "lite-server": "^2.1.0",
-    "typescript": "~2.3.4"
+    "typescript": "~2.3.4",
+    "@types/ej.web.all": "^15.3.3",
+    "@types/jquery": "^3.2.12",
+    "@types/es6-shim": "0.31.32",
+    "@types/node": "6.0.52"
   }
 }
