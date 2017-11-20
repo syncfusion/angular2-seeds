@@ -41,8 +41,8 @@
     "bootstrap": "^3.3.6",
     "jquery": "~3.2.1",
     "jsrender": "~0.9.84",
-    "syncfusion-javascript": "^15.3.29",
-    "ej-angular2": "^15.3.29"
+    "syncfusion-javascript": "^15.4.17",
+    "ej-angular2": "^15.4.18"
   },
   "devDependencies": {
     "angular2-template-loader": "~0.6.2",
@@ -64,12 +64,12 @@
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
-    "typescript": "^2.4.2",
+    "typescript": "~2.4.2",
     "url-loader": "^0.5.8",
     "webpack": "~2.6.1",
     "webpack-dev-server": "~2.4.5",
     "webpack-merge": "~4.1.0",
-    "@types/ej.web.all": "^15.3.3",
+    "@types/ej.web.all": "^15.4.0",
     "@types/jquery": "^3.2.12",
     "@types/node": "^6.0.46"
   }
