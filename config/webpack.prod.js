@@ -1,5 +1,4 @@
 var webpack = require('webpack');
-var webpackMerge = require('webpack-merge');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var helpers = require('./helpers');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
