@@ -7,7 +7,7 @@
   },
   "description": "A webpack starter for Angular",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 2000",
+    "start": "webpack-dev-server --inline --progress --port 3000",
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
