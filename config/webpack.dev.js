@@ -1,4 +1,3 @@
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var helpers = require('./helpers');
 const fs = require('fs');
 const path = require('path');
